@@ -29,7 +29,7 @@ This is because the server you are connecting to is not patched up to date, and 
    ```batch
    REG ADD "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System\CredSSP\Parameters" /v AllowEncryptionOracle /t REG_DWORD /d 2
    ```
-3. Save this file as ```credss.bat```
+3. Save this file as ```credssp.bat```
 4. Run it as ```Administrator```
 
    ** Or you can just download it and run it **
